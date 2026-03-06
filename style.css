@@ -1,0 +1,141 @@
+
+
+/* BODY */
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+padding:0;
+scroll-behavior:smooth;
+background:#eef3ec;
+}
+
+/* HERO */
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+background:#9CAF88; /* sage */
+text-align:center;
+padding:50px 15px;
+}
+
+.hero img{
+width:300px;
+max-width:80%;
+border-radius:20px;
+animation:float 3s ease-in-out infinite;
+margin-bottom:20px;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+}
+
+.hero-content{
+color:#1B4332;
+}
+
+/* NAMA */
+.hero h1 span{
+color:#1B4332; /* hijau botol */
+font-weight:700;
+}
+
+/* BUTTON */
+.btn-primary{
+background:#1B4332; /* hijau botol */
+border:none;
+padding:10px 25px;
+border-radius:50px;
+color:white;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background:#163828;
+transform:translateY(-3px);
+}
+
+/* TITLE */
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:2rem;
+font-weight:600;
+color:#1B4332;
+}
+
+/* CARD (tidak putih lagi) */
+.skill-card,
+.experience-card,
+.education-card,
+.project-card{
+background:#dfe8dc; /* sage muda */
+border-radius:15px;
+padding:25px;
+margin-bottom:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.skill-card h5,
+.experience-card h5,
+.education-card h5,
+.project-card h5{
+color:#1B4332;
+}
+
+.skill-card p,
+.experience-card p{
+margin:0;
+line-height:1.6;
+color:#2f4f4f;
+}
+
+/* SECTION BACKGROUND */
+#education{
+background:#e6efe4;
+}
+
+#skill-exp{
+background:#eef3ec;
+}
+
+#projects{
+background:#e6efe4;
+}
+
+/* FOOTER */
+.footer{
+background:#1B4332;
+color:white;
+padding:20px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.footer span{
+width:100%;
+text-align:center;
+margin-top:10px;
+font-size:0.9rem;
+}
+
+/* spacing */
+#skill-exp .col-md-6{
+padding:15px;
+}
+
